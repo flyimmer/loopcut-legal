@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoopCut Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .update-date {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        .highlight {
+            background-color: #e8f4f8;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>LoopCut Privacy Policy</h1>
+        <p class="update-date">Last Updated: April 2026</p>
+
+        <p>This Privacy Policy describes how LoopCut ("we", "our", or "us") collects, uses, and protects your information. LoopCut is designed to act as a digital wellbeing tool, and we prioritize your privacy.</p>
+
+        <h2>1. Information We Collect and How We Use It</h2>
+        <ul>
+            <li><strong>Authentication Data:</strong> We use Google Firebase Authentication to manage user accounts. If you create an account, we collect your email address or Google account identity solely for login purposes and to verify premium registration status.</li>
+            <li><strong>Analytics and Crash Data:</strong> We use Firebase Analytics and Crashlytics to understand how users interact with our app and to identify technical issues. This data is aggregated and used exclusively to improve app stability and performance.</li>
+            <li><strong>Local App Usage Data:</strong> Your monitored app list, screen time data, and bedtime settings are stored <strong>locally on your device</strong>. This data is not transmitted to our servers or shared with third parties.</li>
+        </ul>
+
+        <div class="highlight">
+            <h2>2. Critical System Permissions</h2>
+            <h3>Accessibility Service API</h3>
+            <p>LoopCut requires the use of the Android Accessibility Service API. <strong>We use this service solely to detect the package name of the application currently running in the foreground</strong> (e.g., <code>getRootInActiveWindow().packageName</code>). This allows LoopCut to trigger digital wellbeing interventions and enforce your configured limits.</p>
+            <p><strong>Strict Privacy Guarantee:</strong> LoopCut <em>does not</em> use the Accessibility Service to read window content, monitor your typing, read text, or interact with UI elements inside other applications. No screen content is ever recorded, collected, or transmitted.</p>
+
+            <h3>Usage Access (PACKAGE_USAGE_STATS)</h3>
+            <p>LoopCut requires Usage Access to display your per-app usage time within the app's Insights tab and to calculate time-based intervention quotas accurately. This data remains on your device.</p>
+        </div>
+
+        <h2>3. Data Sharing</h2>
+        <p>We do not sell, rent, or trade your personal information. Data is only shared with trusted third-party service providers (Google Firebase) strictly for the purpose of operating the application (Authentication, Analytics, and App Stability), in compliance with their strict privacy policies.</p>
+
+        <h2>4. Your Data Rights and Deletion</h2>
+        <p>You have the right to access, modify, or delete your personal data. If you have registered an account with LoopCut, you can delete your account and all associated Firebase authentication data directly from within the app settings. Deleting your account will permanently erase your authentication identity from our backend systems.</p>
+
+        <h2>5. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. We will notify you of any significant changes by updating the date at the top of this policy or through an in-app notification.</p>
+
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us through the developer contact information provided on our Google Play Store listing.</p>
+    </div>
+</body>
+</html>
