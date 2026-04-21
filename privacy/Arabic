@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>سياسة الخصوصية — LoopCut</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      color: #1f2937;
+      background: #f9fafb;
+      direction: rtl; /* Right to Left text alignment */
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+      color: white;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header .app-name {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #93c5fd;
+      margin-bottom: 8px;
+    }
+    header h1 {
+      font-size: 26px;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 8px;
+    }
+    header .updated {
+      font-size: 13px;
+      color: #94a3b8;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 24px 64px;
+    }
+
+    .intro {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin-bottom: 32px;
+      font-size: 15px;
+      color: #374151;
+      border-right: 4px solid #3b82f6; /* Adjusted for RTL */
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #111827;
+      margin: 36px 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e5e7eb;
+    }
+
+    h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: #1e3a5f;
+      margin: 20px 0 8px;
+    }
+
+    p { margin-bottom: 12px; color: #374151; font-size: 15px; }
+
+    ul, ol {
+      padding-right: 20px; /* Adjusted for RTL */
+      margin-bottom: 12px;
+    }
+    li { margin-bottom: 6px; color: #374151; font-size: 15px; }
+    li strong { color: #111827; }
+
+    /* NOT collected list */
+    .not-collected li { list-style: none; padding-right: 0; }
+    .not-collected li::before { content: ''; margin-left: 6px; } /* Adjusted for RTL */
+
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 20px;
+      font-size: 14px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    }
+    thead { background: #1e3a5f; color: white; }
+    thead th { padding: 10px 14px; text-align: right; font-weight: 600; font-size: 13px; } /* Adjusted for RTL */
+    tbody tr:nth-child(even) { background: #f8fafc; }
+    tbody td { padding: 9px 14px; border-bottom: 1px solid #e5e7eb; color: #374151; vertical-align: top; }
+
+    /* Alert box */
+    .alert {
+      background: #eff6ff;
+      border-right: 4px solid #3b82f6; /* Adjusted for RTL */
+      border-radius: 6px;
+      padding: 14px 18px;
+      margin: 16px 0;
+      font-size: 14px;
+      color: #1e40af;
+    }
+
+    code {
+      font-family: 'Menlo', 'Consolas', monospace;
+      font-size: 13px;
+      background: #f1f5f9;
+      padding: 1px 5px;
+      border-radius: 3px;
+      color: #1e3a5f;
+      direction: ltr; /* Keeping code snippets LTR */
+      display: inline-block;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 13px;
+      color: #9ca3af;
+      border-top: 1px solid #e5e7eb;
+      background: white;
+    }
+
+    @media (max-width: 600px) {
+      header { padding: 28px 16px 24px; }
+      main { padding: 24px 16px 48px; }
+      table { font-size: 13px; }
+      thead th, tbody td { padding: 8px 10px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="app-name">LoopCut</div>
+  <h1>سياسة الخصوصية</h1>
+  <div class="updated">آخر تحديث: 9 أبريل 2026</div>
+</header>
+
+<main>
+
+  <div class="intro">
+    تطبيق LoopCut هو تطبيق للرفاهية الرقمية يساعدك على كسر أنماط الاستخدام المعتادة للهاتف. نحن ملتزمون بحماية خصوصيتك مع توفير الميزات التي تساعدك على بناء عادات صحية أكثر لاستخدام الهاتف.
+  </div>
+
+  <h2>البيانات التي نجمعها</h2>
+
+  <h3>معلومات الحساب</h3>
+  <p>عندما تقوم بإنشاء حساب LoopCut (عبر تسجيل الدخول باستخدام Google)، فإننا نجمع:</p>
+  <ul>
+    <li><strong>عنوان البريد الإلكتروني لحساب Google</strong> — لتسجيل الدخول واسترداد الحساب</li>
+    <li><strong>اسم العرض</strong> (اختياري) — للتخصيص</li>
+    <li><strong>حالة الحساب</strong> — ما إذا كان قد تم تنشيط حسابك (مستخدم مجاني مقابل مستخدم مسجل)</li>
+  </ul>
+
+  <h3>تحليلات الاستخدام</h3>
+  <p>لتحسين تجربة التطبيق، قد يجمع LoopCut <strong>بيانات استخدام مجمعة ومجهولة المصدر</strong>، مثل:</p>
+  <ul>
+    <li>الميزات الأكثر استخدامًا (مثل: وضع وقت النوم، نقاط التفتيش)</li>
+    <li>عدد الجلسات وأنماط الاستخدام العامة</li>
+    <li>تقارير أعطال التطبيق والأخطاء</li>
+  </ul>
+  <p>هذه البيانات <strong>مجهولة المصدر</strong> — لا يمكن استخدامها لتحديد هويتك شخصيًا. يتم استخدامها حصريًا لفهم كيفية استخدام التطبيق ولتحسينه.</p>
+  <p><strong>يمكنك إلغاء الاشتراك</strong> في تحليلات الاستخدام في أي وقت من إعدادات التطبيق.</p>
+
+  <h3>البيانات التي لا يتم جمعها</h3>
+  <ul class="not-collected">
+    <li>❌ لا يوجد محتوى من التطبيقات الأخرى (ما تقرأه، تكتبه، أو تشاهده)</li>
+    <li>❌ لا توجد بيانات موقع</li>
+    <li>❌ لا توجد جهات اتصال أو سجلات مكالمات</li>
+    <li>❌ لا توجد معرفات إعلانية أو تتبع إعلانات</li>
+    <li>❌ لا يتم بيع أي بيانات لأطراف ثالثة</li>
+  </ul>
+
+  <h2>البيانات المخزنة على جهازك</h2>
+  <p>يتم تخزين البيانات التالية <strong>محليًا على جهازك فقط</strong> ولا يتم نقلها أبدًا:</p>
+
+  <table>
+    <thead>
+      <tr><th>البيانات</th><th>الغرض</th><th>التخزين</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>جلسات استخدام التطبيق</td><td>تتبع التطبيقات التي تستخدمها ومدة استخدامها</td><td>قاعدة بيانات Android Room</td></tr>
+      <tr><td>إعدادات المؤقت والتدخل</td><td>تذكر تفضيلاتك</td><td>Android DataStore</td></tr>
+      <tr><td>تكوين وضع وقت النوم</td><td>جدولة وإدارة وضع النوم</td><td>Android DataStore</td></tr>
+      <tr><td>عدد نقاط التفتيش</td><td>تتبع تكرار التدخل لكل تطبيق</td><td>قاعدة بيانات Android Room</td></tr>
+      <tr><td>قائمة البدائل</td><td>مكتبتك الخاصة بالأنشطة الصحية</td><td>قاعدة بيانات Android Room</td></tr>
+      <tr><td>سجلات الأعطال</td><td>المساعدة في تصحيح الأخطاء محليًا (مرئية فقط داخل التطبيق)</td><td>ملف نصي محلي</td></tr>
+    </tbody>
+  </table>
+  <p><strong>يؤدي إلغاء تثبيت LoopCut إلى حذف جميع البيانات المخزنة محليًا بشكل دائم.</strong></p>
+
+  <h2>المزامنة السحابية</h2>
+  <p>إذا قمت بتسجيل الدخول باستخدام حساب Google، <strong>قد تتم مزامنة</strong> البيانات التالية مع خوادمنا:</p>
+  <ul>
+    <li>إعدادات وتفضيلات التطبيق الخاصة بك</li>
+    <li>تاريخ التدخلات والإحصائيات</li>
+    <li>حالة الحساب</li>
+  </ul>
+  <p>تم تصميم المزامنة السحابية للسماح لك باستعادة بياناتك على جهاز جديد. يتم تخزين بياناتك بشكل آمن باستخدام Firebase (Google Cloud) و <strong>لا يتم مشاركتها مع أطراف ثالثة</strong>.</p>
+  <div class="alert">
+    <strong>يمكنك استخدام LoopCut بدون حساب</strong> — جميع الميزات تعمل بشكل كامل دون اتصال بالإنترنت مع تخزين محلي فقط.
+  </div>
+
+  <h2>الأذونات المستخدمة</h2>
+
+  <table>
+    <thead>
+      <tr><th>الإذن</th><th>لماذا هو مطلوب</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>خدمة إمكانية الوصول (Accessibility)</strong></td><td>تكتشف التطبيق الموجود في المقدمة عن طريق قراءة اسم حزمة النافذة النشطة. <strong>لا يتم قراءة محتوى الشاشة، أو النصوص، أو تسميات واجهة المستخدم، أو تفاعلات المستخدم.</strong> يمكنك تعطيل هذا في أي وقت من إعدادات Android.</td></tr>
+      <tr><td><strong>الوصول إلى بيانات الاستخدام (Usage Stats)</strong></td><td>يقرأ بيانات وقت الشاشة لكل تطبيق لعرض استخدامك في علامة التبويب "الرؤى" ولفرض حدود وقت الجلسة. تظل هذه البيانات على جهازك.</td></tr>
+      <tr><td><strong>الظهور فوق التطبيقات الأخرى</strong></td><td>يعرض شاشات التدخل (نقاط التفتيش، تمارين التنفس، قفل وقت النوم) كتراكبات فوق التطبيقات الأخرى.</td></tr>
+      <tr><td><strong>الإشعارات</strong></td><td>يرسل تذكيرات لوضع وقت النوم ويعرض إشعار خدمة اكتشاف المقدمة.</td></tr>
+      <tr><td><strong>المنبهات الدقيقة</strong></td><td>يجدول أوقات بدء/انتهاء وقت النوم ومؤقتات التدخل بشكل موثوق.</td></tr>
+      <tr><td><strong>الاهتزاز</strong></td><td>يوفر ردود فعل لمسية أثناء تمارين التنفس واكتمال المؤقت.</td></tr>
+      <tr><td><strong>التشغيل عند بدء التشغيل</strong></td><td>يعيد تشغيل خدمة اكتشاف المقدمة بعد إعادة تشغيل الجهاز حتى تستمر الحماية تلقائيًا.</td></tr>
+      <tr><td><strong>الخدمة الأمامية (Foreground service)</strong></td><td>يحافظ على تشغيل خدمة اكتشاف المقدمة أثناء استخدامك لهاتفك.</td></tr>
+      <tr><td><strong>قفل الاستيقاظ (Wake lock)</strong></td><td>يضمن انطلاق المؤقتات ومنبهات وقت النوم بشكل صحيح حتى عندما تكون الشاشة مغلقة.</td></tr>
+    </tbody>
+  </table>
+
+  <h2>خدمة إمكانية الوصول — بيان تفصيلي</h2>
+  <p>يستخدم تطبيق LoopCut خدمة AccessibilityService في نظام Android <strong>حصريًا</strong> لاكتشاف التطبيق الموجود حاليًا في المقدمة. الخدمة:</p>
+  <ul>
+    <li><strong>تستمع فقط</strong> لأحداث <code>TYPE_WINDOW_STATE_CHANGED</code> (تبديل التطبيقات)</li>
+    <li><strong>تقرأ فقط</strong> اسم حزمة النافذة النشطة (مثل <code>com.android.chrome</code>)</li>
+    <li><strong>لا تقرأ أبدًا</strong> محتوى الشاشة أو النصوص أو تسميات واجهة المستخدم أو إدخال المستخدم</li>
+    <li><strong>لا تسجل أو تنقل أبدًا</strong> ما تفعله داخل أي تطبيق</li>
+    <li><strong>يمكن تعطيلها</strong> في أي وقت في إعدادات Android → إمكانية الوصول</li>
+  </ul>
+
+  <h2>المكتبات والخدمات التابعة لجهات خارجية</h2>
+
+  <table>
+    <thead>
+      <tr><th>الخدمة</th><th>المزود</th><th>الغرض</th><th>البيانات المشاركة</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Firebase Authentication</td><td>Google</td><td>تسجيل الدخول للحساب عبر Google</td><td>البريد الإلكتروني، معرف المستخدم (UID)</td></tr>
+      <tr><td>Firebase Analytics</td><td>Google</td><td>تحليلات استخدام مجهولة المصدر</td><td>الأحداث المجمعة</td></tr>
+      <tr><td>Firebase Firestore</td><td>Google</td><td>المزامنة السحابية للإعدادات</td><td>الإعدادات وحالة الحساب</td></tr>
+      <tr><td>Firebase Crashlytics</td><td>Google</td><td>الإبلاغ عن الأعطال</td><td>تتبعات الأعطال مجهولة المصدر</td></tr>
+    </tbody>
+  </table>
+  <p>تطبيق LoopCut <strong>لا</strong> يتضمن أي حزم تطوير برمجيات إعلانية (SDKs) أو عمليات دمج لوسطاء البيانات.</p>
+
+  <h2>الاحتفاظ بالبيانات وحذفها</h2>
+  <ul>
+    <li>يتم <strong>حذف البيانات المحلية</strong> عندما تقوم بإلغاء تثبيت LoopCut.</li>
+    <li>يمكن <strong>حذف بيانات الحساب</strong> بالانتقال إلى الإعدادات → الحساب → حذف الحساب في التطبيق، أو عن طريق مراسلتنا عبر البريد الإلكتروني.</li>
+    <li><strong>بيانات التحليلات</strong> مجهولة المصدر ولا يمكن تتبعها للوصول إلى مستخدمين أفراد.</li>
+    <li>يمكنك طلب نسخة من بيانات حساب Firebase الخاص بك أو حذفها عن طريق الاتصال بنا.</li>
+  </ul>
+
+  <h2>خصوصية الأطفال</h2>
+  <p>لا يجمع LoopCut عن قصد معلومات شخصية من الأطفال دون سن 13 عامًا. إذا كنت تعتقد أن طفلاً قد زودنا ببيانات شخصية، فيرجى الاتصال بنا حتى نتمكن من حذفها.</p>
+
+  <h2>تغييرات على هذه السياسة</h2>
+  <p>إذا قمنا بتحديث سياسة الخصوصية هذه، فسيتم نشر الإصدار الجديد على عنوان URL هذا مع تاريخ محدث. سنقوم بإخطار المستخدمين بالتغييرات المهمة من خلال التطبيق.</p>
+
+  <h2>اتصل بنا</h2>
+  <p>إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه أو كنت ترغب في طلب حذف البيانات، يمكنك التواصل معنا على:</p>
+  <ul>
+    <li><strong>البريد الإلكتروني:</strong> <a href="mailto:u9486010837@gmail.com">u9486010837@gmail.com</a></li>
+  </ul>
+
+  <hr style="margin: 40px 0 24px; border: none; border-top: 1px solid #e5e7eb;" />
+  <p style="font-size: 14px; color: #6b7280; font-style: italic;">تم بناء تطبيق LoopCut بفلسفة الخصوصية أولاً: تظل معظم بياناتك على جهازك، وأي بيانات يتم جمعها تكون مجهولة المصدر وتستخدم حصريًا لتحسين التطبيق.</p>
+
+</main>
+
+<footer>
+  &copy; 2026 LoopCut &nbsp;·&nbsp; <a href="mailto:u9486010837@gmail.com" style="color: #6b7280;">اتصل بنا</a>
+</footer>
+
+</body>
+</html>
