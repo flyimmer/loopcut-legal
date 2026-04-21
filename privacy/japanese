@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>プライバシーポリシー — LoopCut</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      color: #1f2937;
+      background: #f9fafb;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+      color: white;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header .app-name {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #93c5fd;
+      margin-bottom: 8px;
+    }
+    header h1 {
+      font-size: 26px;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 8px;
+    }
+    header .updated {
+      font-size: 13px;
+      color: #94a3b8;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 24px 64px;
+    }
+
+    .intro {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin-bottom: 32px;
+      font-size: 15px;
+      color: #374151;
+      border-left: 4px solid #3b82f6;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #111827;
+      margin: 36px 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e5e7eb;
+    }
+
+    h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: #1e3a5f;
+      margin: 20px 0 8px;
+    }
+
+    p { margin-bottom: 12px; color: #374151; font-size: 15px; }
+
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+    li { margin-bottom: 6px; color: #374151; font-size: 15px; }
+    li strong { color: #111827; }
+
+    /* NOT collected list */
+    .not-collected li { list-style: none; padding-left: 0; }
+    .not-collected li::before { content: ''; margin-right: 6px; }
+
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 20px;
+      font-size: 14px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    }
+    thead { background: #1e3a5f; color: white; }
+    thead th { padding: 10px 14px; text-align: left; font-weight: 600; font-size: 13px; }
+    tbody tr:nth-child(even) { background: #f8fafc; }
+    tbody td { padding: 9px 14px; border-bottom: 1px solid #e5e7eb; color: #374151; vertical-align: top; }
+
+    /* Alert box */
+    .alert {
+      background: #eff6ff;
+      border-left: 4px solid #3b82f6;
+      border-radius: 6px;
+      padding: 14px 18px;
+      margin: 16px 0;
+      font-size: 14px;
+      color: #1e40af;
+    }
+
+    code {
+      font-family: 'Menlo', 'Consolas', monospace;
+      font-size: 13px;
+      background: #f1f5f9;
+      padding: 1px 5px;
+      border-radius: 3px;
+      color: #1e3a5f;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 13px;
+      color: #9ca3af;
+      border-top: 1px solid #e5e7eb;
+      background: white;
+    }
+
+    @media (max-width: 600px) {
+      header { padding: 28px 16px 24px; }
+      main { padding: 24px 16px 48px; }
+      table { font-size: 13px; }
+      thead th, tbody td { padding: 8px 10px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="app-name">LoopCut</div>
+  <h1>プライバシーポリシー</h1>
+  <div class="updated">最終更新日: 2026年4月9日</div>
+</header>
+
+<main>
+
+  <div class="intro">
+    LoopCutは、習慣的なスマートフォンの使用パターンを断ち切るのに役立つデジタルウェルビーイングアプリです。私たちは、より健康的なスマートフォンの習慣を築くための機能を提供しながら、お客様のプライバシーを保護することをお約束します。
+  </div>
+
+  <h2>収集するデータ</h2>
+
+  <h3>アカウント情報</h3>
+  <p>LoopCutアカウントを作成する際（Googleログイン経由）、以下の情報を収集します：</p>
+  <ul>
+    <li><strong>Googleアカウントのメールアドレス</strong> — ログインおよびアカウント復元のため</li>
+    <li><strong>表示名</strong>（任意）— パーソナライズのため</li>
+    <li><strong>アカウントステータス</strong> — アカウントが有効化されているかどうか（無料ユーザーと登録ユーザー）</li>
+  </ul>
+
+  <h3>利用状況分析</h3>
+  <p>アプリの体験を向上させるため、LoopCutは以下のような<strong>匿名化および集約された利用データ</strong>を収集する場合があります：</p>
+  <ul>
+    <li>最も頻繁に使用される機能（例：就寝モード、チェックポイント）</li>
+    <li>セッション数および一般的な利用パターン</li>
+    <li>アプリのクラッシュおよびエラーレポート</li>
+  </ul>
+  <p>このデータは<strong>匿名化</strong>されており、個人を特定するために使用することはできません。アプリがどのように使用されているかを理解し、改善するためだけに使用されます。</p>
+  <p>アプリの設定で、いつでも利用状況分析を<strong>オプトアウト（無効化）</strong>することができます。</p>
+
+  <h3>収集しないデータ</h3>
+  <ul class="not-collected">
+    <li>❌ 他のアプリのコンテンツ（読んだり、入力したり、見たりしたもの）は一切なし</li>
+    <li>❌ 位置情報データは一切なし</li>
+    <li>❌ 連絡先や通話履歴は一切なし</li>
+    <li>❌ 広告識別子や広告トラッキングは一切なし</li>
+    <li>❌ 第三者に販売されるデータは一切なし</li>
+  </ul>
+
+  <h2>デバイスに保存されるデータ</h2>
+  <p>以下のデータは<strong>デバイスのローカルのみに保存</strong>され、送信されることはありません：</p>
+
+  <table>
+    <thead>
+      <tr><th>データ</th><th>目的</th><th>保存場所</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>アプリの利用セッション</td><td>どのアプリをどのくらい使用したかを追跡</td><td>Android Roomデータベース</td></tr>
+      <tr><td>タイマーと介入の設定</td><td>ユーザーの好みを記憶</td><td>Android DataStore</td></tr>
+      <tr><td>就寝モードの設定</td><td>睡眠モードのスケジュールと管理</td><td>Android DataStore</td></tr>
+      <tr><td>チェックポイント回数</td><td>アプリごとの介入頻度を追跡</td><td>Android Roomデータベース</td></tr>
+      <tr><td>代替アクションのリスト</td><td>健康的なアクティビティのライブラリ</td><td>Android Roomデータベース</td></tr>
+      <tr><td>クラッシュログ</td><td>ローカルでのデバッグの支援（アプリ内でのみ表示可能）</td><td>ローカルテキストファイル</td></tr>
+    </tbody>
+  </table>
+  <p><strong>LoopCutをアンインストールすると、ローカルに保存されているすべてのデータが完全に削除されます。</strong></p>
+
+  <h2>クラウド同期</h2>
+  <p>Googleアカウントでログインした場合、以下のデータが当社のサーバーに<strong>同期される場合があります</strong>：</p>
+  <ul>
+    <li>アプリの設定と設定項目</li>
+    <li>介入の履歴と統計</li>
+    <li>アカウントステータス</li>
+  </ul>
+  <p>クラウド同期は、新しいデバイスでデータを復元できるように設計されています。データはFirebase (Google Cloud)を使用して安全に保存され、<strong>第三者と共有されることはありません</strong>。</p>
+  <div class="alert">
+    <strong>アカウントなしでもLoopCutを使用できます</strong> — すべての機能はローカルストレージのみを使用してオフラインで完全に動作します。
+  </div>
+
+  <h2>使用される権限</h2>
+
+  <table>
+    <thead>
+      <tr><th>権限</th><th>必要な理由</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>ユーザー補助サービス (Accessibility Service)</strong></td><td>アクティブなウィンドウのパッケージ名を読み取ることで、現在どのアプリがフォアグラウンドにあるかを検出します。<strong>画面のコンテンツ、テキスト、UIラベル、ユーザーの操作は読み取られません。</strong>これはAndroidの設定でいつでも無効にすることができます。</td></tr>
+      <tr><td><strong>使用状況へのアクセス (Usage Stats)</strong></td><td>アプリごとのスクリーンタイムデータを読み取り、「インサイト」タブに利用状況を表示し、セッション時間の制限を適用します。このデータはデバイス内に保持されます。</td></tr>
+      <tr><td><strong>他のアプリの上に重ねて表示</strong></td><td>介入画面（チェックポイント、深呼吸エクササイズ、就寝時のロック）を他のアプリの上にオーバーレイとして表示します。</td></tr>
+      <tr><td><strong>通知</strong></td><td>就寝モードのリマインダーを送信し、フォアグラウンド検出サービスの通知を表示します。</td></tr>
+      <tr><td><strong>正確なアラーム</strong></td><td>就寝の開始/終了時間と介入タイマーを確実なスケジュールで実行します。</td></tr>
+      <tr><td><strong>バイブレーション</strong></td><td>深呼吸エクササイズやタイマー完了時に触覚フィードバックを提供します。</td></tr>
+      <tr><td><strong>起動時の実行</strong></td><td>デバイスの再起動後、フォアグラウンド検出サービスを再起動し、保護が自動的に継続されるようにします。</td></tr>
+      <tr><td><strong>フォアグラウンドサービス</strong></td><td>スマートフォンの使用中、フォアグラウンド検出サービスを実行し続けます。</td></tr>
+      <tr><td><strong>ウェイクロック (Wake lock)</strong></td><td>画面がオフになっている場合でも、タイマーと就寝アラームが正しく起動するようにします。</td></tr>
+    </tbody>
+  </table>
+
+  <h2>ユーザー補助サービス — 詳細な声明</h2>
+  <p>LoopCutは、現在どのアプリがフォアグラウンドにあるかを検出するために<strong>のみ</strong>、AndroidのAccessibilityService（ユーザー補助サービス）を使用します。このサービスは：</p>
+  <ul>
+    <li><code>TYPE_WINDOW_STATE_CHANGED</code>イベント（アプリの切り替え）<strong>のみ</strong>をリッスンします</li>
+    <li>アクティブなウィンドウのパッケージ名（例：<code>com.android.chrome</code>）<strong>のみ</strong>を読み取ります</li>
+    <li>画面のコンテンツ、テキスト、UIラベル、ユーザーの入力は<strong>決して</strong>読み取りません</li>
+    <li>アプリ内で何をしているかを記録したり送信したりすることは<strong>決して</strong>ありません</li>
+    <li>Androidの設定 → ユーザー補助 で<strong>いつでも無効にすることができます</strong></li>
+  </ul>
+
+  <h2>サードパーティのライブラリとサービス</h2>
+
+  <table>
+    <thead>
+      <tr><th>サービス</th><th>提供者</th><th>目的</th><th>共有されるデータ</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Firebase Authentication</td><td>Google</td><td>Google経由でのアカウントログイン</td><td>メールアドレス、UID</td></tr>
+      <tr><td>Firebase Analytics</td><td>Google</td><td>匿名化された利用状況分析</td><td>集約されたイベント</td></tr>
+      <tr><td>Firebase Firestore</td><td>Google</td><td>設定のクラウド同期</td><td>設定とアカウントステータス</td></tr>
+      <tr><td>Firebase Crashlytics</td><td>Google</td><td>クラッシュ報告</td><td>匿名化されたクラッシュトレース</td></tr>
+    </tbody>
+  </table>
+  <p>LoopCutには広告SDKやデータブローカーとの統合は<strong>含まれていません</strong>。</p>
+
+  <h2>データの保持と削除</h2>
+  <ul>
+    <li>LoopCutをアンインストールすると、<strong>ローカルデータ</strong>は削除されます</li>
+    <li><strong>アカウントデータ</strong>は、アプリ内の 設定 → アカウント → アカウントの削除 から、またはメールでご連絡いただくことで削除できます</li>
+    <li><strong>分析データ</strong>は匿名化されており、個々のユーザーを追跡することはできません</li>
+    <li>お問い合わせいただければ、Firebaseアカウントデータのコピーまたは削除をリクエストできます</li>
+  </ul>
+
+  <h2>お子様のプライバシー</h2>
+  <p>LoopCutは、13歳未満のお子様から意図的に個人情報を収集することはありません。お子様が個人データを提供したと思われる場合は、削除できるよう当社までご連絡ください。</p>
+
+  <h2>本ポリシーの変更</h2>
+  <p>このプライバシーポリシーを更新する場合、新しいバージョンが更新日とともにこのURLに投稿されます。重要な変更があった場合は、アプリを通じてユーザーにお知らせします。</p>
+
+  <h2>お問い合わせ</h2>
+  <p>このプライバシーポリシーに関するご質問や、データの削除をご希望の場合は、以下までご連絡ください：</p>
+  <ul>
+    <li><strong>メール：</strong> <a href="mailto:u9486010837@gmail.com">u9486010837@gmail.com</a></li>
+  </ul>
+
+  <hr style="margin: 40px 0 24px; border: none; border-top: 1px solid #e5e7eb;" />
+  <p style="font-size: 14px; color: #6b7280; font-style: italic;">LoopCutはプライバシーファーストの哲学に基づいて構築されています。データのほとんどはデバイス内に留まり、収集されたデータは匿名化され、アプリの改善のみに使用されます。</p>
+
+</main>
+
+<footer>
+  &copy; 2026 LoopCut &nbsp;·&nbsp; <a href="mailto:u9486010837@gmail.com" style="color: #6b7280;">お問い合わせ</a>
+</footer>
+
+</body>
+</html>
