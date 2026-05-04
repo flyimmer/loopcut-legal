@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>隐私政策 — LoopCut</title>
+  <title>隐私政策 - LoopCut</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -21,6 +21,7 @@
       padding: 40px 24px 32px;
       text-align: center;
     }
+
     header .app-name {
       font-size: 13px;
       font-weight: 600;
@@ -29,33 +30,37 @@
       color: #93c5fd;
       margin-bottom: 8px;
     }
+
     header h1 {
       font-size: 26px;
       font-weight: 700;
       color: white;
       margin-bottom: 8px;
     }
+
     header .updated {
       font-size: 13px;
       color: #94a3b8;
     }
 
     main {
-      max-width: 720px;
+      max-width: 760px;
       margin: 0 auto;
       padding: 32px 24px 64px;
     }
 
-    .intro {
+    .intro, .note {
       background: white;
       border: 1px solid #e5e7eb;
       border-radius: 10px;
-      padding: 20px 24px;
-      margin-bottom: 32px;
+      padding: 18px 22px;
+      margin-bottom: 24px;
       font-size: 15px;
       color: #374151;
-      border-left: 4px solid #3b82f6;
     }
+
+    .intro { border-left: 4px solid #3b82f6; }
+    .note { border-left: 4px solid #64748b; }
 
     h2 {
       font-size: 18px;
@@ -68,7 +73,7 @@
 
     h3 {
       font-size: 15px;
-      font-weight: 600;
+      font-weight: 700;
       color: #1e3a5f;
       margin: 20px 0 8px;
     }
@@ -79,14 +84,10 @@
       padding-left: 20px;
       margin-bottom: 12px;
     }
+
     li { margin-bottom: 6px; color: #374151; font-size: 15px; }
     li strong { color: #111827; }
 
-    /* NOT collected list */
-    .not-collected li { list-style: none; padding-left: 0; }
-    .not-collected li::before { content: ''; margin-right: 6px; }
-
-    /* Tables */
     table {
       width: 100%;
       border-collapse: collapse;
@@ -96,20 +97,23 @@
       overflow: hidden;
       box-shadow: 0 1px 3px rgba(0,0,0,0.06);
     }
-    thead { background: #1e3a5f; color: white; }
-    thead th { padding: 10px 14px; text-align: left; font-weight: 600; font-size: 13px; }
-    tbody tr:nth-child(even) { background: #f8fafc; }
-    tbody td { padding: 9px 14px; border-bottom: 1px solid #e5e7eb; color: #374151; vertical-align: top; }
 
-    /* Alert box */
-    .alert {
-      background: #eff6ff;
-      border-left: 4px solid #3b82f6;
-      border-radius: 6px;
-      padding: 14px 18px;
-      margin: 16px 0;
-      font-size: 14px;
-      color: #1e40af;
+    thead { background: #1e3a5f; color: white; }
+
+    thead th {
+      padding: 10px 14px;
+      text-align: left;
+      font-weight: 600;
+      font-size: 13px;
+    }
+
+    tbody tr:nth-child(even) { background: #f8fafc; }
+
+    tbody td {
+      padding: 9px 14px;
+      border-bottom: 1px solid #e5e7eb;
+      color: #374151;
+      vertical-align: top;
     }
 
     code {
@@ -120,6 +124,9 @@
       border-radius: 3px;
       color: #1e3a5f;
     }
+
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
 
     footer {
       text-align: center;
@@ -133,156 +140,16 @@
     @media (max-width: 600px) {
       header { padding: 28px 16px 24px; }
       main { padding: 24px 16px 48px; }
-      table { font-size: 13px; }
+      table { font-size: 13px; display: block; overflow-x: auto; }
       thead th, tbody td { padding: 8px 10px; }
     }
   </style>
 </head>
 <body>
-
-<header>
-  <div class="app-name">LoopCut</div>
-  <h1>隐私政策</h1>
-  <div class="updated">最后更新：2026年4月9日</div>
-</header>
-
+<header><div class="app-name">LoopCut</div><h1>隐私政策</h1><div class="updated">最后更新：2026年5月4日</div></header>
 <main>
-
-  <div class="intro">
-    LoopCut 是一款数字健康应用，旨在帮助您打破习惯性的手机使用模式。我们在提供帮助您建立更健康手机习惯的功能的同时，致力于保护您的隐私。
-  </div>
-
-  <h2>我们收集的数据</h2>
-
-  <h3>账户信息</h3>
-  <p>当您创建 LoopCut 账户（通过 Google 登录）时，我们会收集：</p>
-  <ul>
-    <li><strong>Google 账户的电子邮件地址</strong> — 用于登录和账户恢复</li>
-    <li><strong>显示名称</strong>（可选）— 用于个性化体验</li>
-    <li><strong>账户状态</strong> — 您的账户是否已激活（免费用户与注册用户）</li>
-  </ul>
-
-  <h3>使用情况分析</h3>
-  <p>为了改善应用体验，LoopCut 可能会收集<strong>匿名、聚合的使用数据</strong>，例如：</p>
-  <ul>
-    <li>哪些功能使用最频繁（如：就寝模式、检查点）</li>
-    <li>会话次数和一般使用模式</li>
-    <li>应用崩溃和错误报告</li>
-  </ul>
-  <p>这些数据是<strong>匿名的</strong> — 无法用于识别您的个人身份。它仅用于了解应用的使用情况以进行改进。</p>
-  <p>您随时可以在应用设置中<strong>选择退出</strong>使用情况分析。</p>
-
-  <h3>不收集的数据</h3>
-  <ul class="not-collected">
-    <li>❌ 不收集其他应用的内容（您阅读、输入或查看的内容）</li>
-    <li>❌ 不收集位置数据</li>
-    <li>❌ 不收集联系人或通话记录</li>
-    <li>❌ 不收集广告标识符或广告跟踪数据</li>
-    <li>❌ 绝不向第三方出售数据</li>
-  </ul>
-
-  <h2>存储在您设备上的数据</h2>
-  <p>以下数据<strong>仅存储在您的本地设备上</strong>，并且绝不会被传输：</p>
-
-  <table>
-    <thead>
-      <tr><th>数据</th><th>目的</th><th>存储位置</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>应用使用会话</td><td>跟踪您使用了哪些应用及使用时长</td><td>Android Room 数据库</td></tr>
-      <tr><td>计时器和干预设置</td><td>记住您的偏好设定</td><td>Android DataStore</td></tr>
-      <tr><td>就寝模式配置</td><td>计划和管理睡眠模式</td><td>Android DataStore</td></tr>
-      <tr><td>检查点计数</td><td>跟踪每个应用的干预频率</td><td>Android Room 数据库</td></tr>
-      <tr><td>替代活动列表</td><td>您的健康活动库</td><td>Android Room 数据库</td></tr>
-      <tr><td>崩溃日志</td><td>帮助本地调试（仅在应用内可见）</td><td>本地文本文件</td></tr>
-    </tbody>
-  </table>
-  <p><strong>卸载 LoopCut 将永久删除所有本地存储的数据。</strong></p>
-
-  <h2>云同步</h2>
-  <p>如果您使用 Google 账户登录，以下数据<strong>可能会同步</strong>到我们的服务器：</p>
-  <ul>
-    <li>您的应用设置和偏好</li>
-    <li>干预历史记录和统计数据</li>
-    <li>账户状态</li>
-  </ul>
-  <p>云同步旨在让您能够在新设备上恢复数据。您的数据使用 Firebase (Google Cloud) 安全存储，并且<strong>不会与第三方共享</strong>。</p>
-  <div class="alert">
-    <strong>您可以在没有账户的情况下使用 LoopCut</strong> — 所有功能均可完全离线运行，仅使用本地存储。
-  </div>
-
-  <h2>使用的权限</h2>
-
-  <table>
-    <thead>
-      <tr><th>权限</th><th>需要此权限的原因</th></tr>
-    </thead>
-    <tbody>
-      <tr><td><strong>无障碍服务 (Accessibility Service)</strong></td><td>通过读取活动窗口的包名来检测当前哪个应用处于前台。<strong>不读取任何屏幕内容、文本、UI 标签或用户交互。</strong>您随时可以在 Android 设置中禁用此功能。</td></tr>
-      <tr><td><strong>使用情况访问权限 (Usage Stats)</strong></td><td>读取每个应用的屏幕时间数据，以便在“洞察”选项卡中显示您的使用情况并实施会话时间限制。这些数据仅保留在您的设备上。</td></tr>
-      <tr><td><strong>显示在其他应用上层</strong></td><td>将干预屏幕（检查点、呼吸练习、就寝锁定）作为叠加层显示在其他应用之上。</td></tr>
-      <tr><td><strong>通知</strong></td><td>发送就寝模式提醒并显示前台检测服务的通知。</td></tr>
-      <tr><td><strong>精确闹钟</strong></td><td>可靠地安排就寝时间的开始/结束以及干预计时器。</td></tr>
-      <tr><td><strong>振动</strong></td><td>在呼吸练习和计时器完成时提供触觉反馈。</td></tr>
-      <tr><td><strong>开机时运行</strong></td><td>在设备重启后重新启动前台检测服务，以便自动恢复保护。</td></tr>
-      <tr><td><strong>前台服务</strong></td><td>在您使用手机时保持前台检测服务运行。</td></tr>
-      <tr><td><strong>唤醒锁 (Wake lock)</strong></td><td>确保计时器和就寝闹钟即使在屏幕关闭时也能正确触发。</td></tr>
-    </tbody>
-  </table>
-
-  <h2>无障碍服务 — 详细声明</h2>
-  <p>LoopCut <strong>仅</strong>使用 Android 的 AccessibilityService（无障碍服务）来检测当前哪个应用处于前台。该服务：</p>
-  <ul>
-    <li><strong>仅</strong>监听 <code>TYPE_WINDOW_STATE_CHANGED</code> 事件（应用切换）</li>
-    <li><strong>仅</strong>读取活动窗口的包名（例如 <code>com.android.chrome</code>）</li>
-    <li><strong>绝不</strong>读取屏幕内容、文本、UI 标签或用户输入</li>
-    <li><strong>绝不</strong>记录或传输您在任何应用内的操作</li>
-    <li>随时可以在 Android 设置 → 无障碍（Accessibility）中<strong>禁用</strong></li>
-  </ul>
-
-  <h2>第三方库和服务</h2>
-
-  <table>
-    <thead>
-      <tr><th>服务</th><th>提供商</th><th>目的</th><th>共享的数据</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>Firebase Authentication</td><td>Google</td><td>通过 Google 进行账户登录</td><td>电子邮件，UID</td></tr>
-      <tr><td>Firebase Analytics</td><td>Google</td><td>匿名使用情况分析</td><td>聚合事件</td></tr>
-      <tr><td>Firebase Firestore</td><td>Google</td><td>设置的云同步</td><td>设置和账户状态</td></tr>
-      <tr><td>Firebase Crashlytics</td><td>Google</td><td>崩溃报告</td><td>匿名崩溃追踪</td></tr>
-    </tbody>
-  </table>
-  <p>LoopCut <strong>不</strong>包含广告 SDK 或数据代理集成。</p>
-
-  <h2>数据保留与删除</h2>
-  <ul>
-    <li>当您卸载 LoopCut 时，<strong>本地数据</strong>将被删除。</li>
-    <li><strong>账户数据</strong>可以通过在应用中进入 设置 → 账户 → 删除账户 来删除，或者通过向我们发送电子邮件来删除。</li>
-    <li><strong>分析数据</strong>是匿名的，无法追溯到个人用户。</li>
-    <li>您可以通过联系我们要求获取或删除您的 Firebase 账户数据。</li>
-  </ul>
-
-  <h2>儿童隐私</h2>
-  <p>LoopCut 不会有意收集 13 岁以下儿童的个人信息。如果您认为有儿童向我们提供了个人数据，请与我们联系，以便我们将其删除。</p>
-
-  <h2>本政策的变更</h2>
-  <p>如果我们更新此隐私政策，新版本将在此 URL 上发布并更新日期。我们将通过应用通知用户重大变更。</p>
-
-  <h2>联系我们</h2>
-  <p>如果您对此隐私政策有任何疑问或希望请求删除数据，可以通过以下方式联系我们：</p>
-  <ul>
-    <li><strong>电子邮件：</strong> <a href="mailto:u9486010837@gmail.com">u9486010837@gmail.com</a></li>
-  </ul>
-
-  <hr style="margin: 40px 0 24px; border: none; border-top: 1px solid #e5e7eb;" />
-  <p style="font-size: 14px; color: #6b7280; font-style: italic;">LoopCut 秉承隐私优先的理念构建：您的大部分数据保留在您的设备上，任何收集的数据均被匿名化，并仅用于改善应用。</p>
-
+<div class="intro">LoopCut 是一款数字健康应用，帮助你减少无意识刷手机，并养成更有意识的使用习惯。LoopCut 的设计原则是：敏感的手机使用信息应尽可能留在你的设备上。</div><h2>1. 我们是谁</h2><p>本隐私政策说明，当你使用 LoopCut Android 应用及相关服务时，LoopCut 如何收集、使用、存储和保护信息。</p><p>数据控制者是 <strong>Wei Zhang</strong>，德国。你可以通过 <a href="mailto:u9486010837@gmail.com">u9486010837@gmail.com</a> 联系我们。</p><h2>2. 简要说明</h2><ul><li>大多数 LoopCut 设置和手机使用数据都存储在你的设备本地。</li><li>LoopCut 不出售你的数据，也不使用广告标识符或广告跟踪。</li><li>LoopCut 不会为了可靠性报告或产品分析发送应用名称、包名、网站、URL、输入的意图、通知内容、消息、浏览历史、前台应用历史或个人内容。</li><li>可靠性报告用于发现设置失败、崩溃和技术问题，并可在设置中关闭。</li><li>产品分析是可选的，并基于你的同意。Firebase Analytics 只会在你同意后发送事件。</li><li>支持诊断只会在你选择发送诊断报告时发送。</li></ul><h2>3. 存储在你设备上的数据</h2><p>LoopCut 会在本地处理引导完成状态、权限状态、已选择的 Guarded Apps、Guarded Apps 数量、Quick Task 设置、激活计数、Sleep Guard 配置、应用语言和本地 Premium 权益缓存。除非存在特定的同意或必要操作需要传输，这些数据默认留在你的设备上。</p><p>卸载 LoopCut 通常会删除本地应用数据，但 Android、设备厂商或备份设置可能会保留单独备份。</p><h2>4. 账户和登录数据</h2><p>除非特定 Early Access、Premium 或账户功能需要登录，你可以不登录使用 LoopCut。如果使用 Google 登录，LoopCut 可能处理你的 Google 邮箱、Google 账户标识符、显示名称（如 Google 提供）、账户状态以及登录和安全记录。退出登录不会自动删除本地设置，也不影响可靠性报告和产品分析选择。</p><h2>5. Premium、购买和权益数据</h2><p>如果 LoopCut 提供付费或 Premium 功能，LoopCut 可能处理产品或订阅标识符、购买令牌或收据信息、订阅/试用/续订/到期/取消/退款/恢复状态，以及必要的付款、税务、发票、会计、争议或法律记录。这些是服务运营数据，不是 Firebase 产品分析事件。</p><h2>6. 可靠性报告</h2><p>LoopCut 可能收集有限的可靠性数据，以发现不同 Android 版本和手机品牌上的设置失败、崩溃和技术问题。这可能包括应用版本、Android 主版本、粗略设备或厂商分组、权限和设置状态、失败的设置步骤、错误类别以及有限技术诊断。</p><p>可靠性报告不包括应用名称、包名、网站、URL、输入的意图、通知内容、消息、浏览历史、前台应用历史或个人内容。你可以在 Settings - Privacy &amp; Data 中开启或关闭。关闭后会停止未来上传，但不会删除 LoopCut 因账户、购买、法律、安全或支持目的需要保留的记录。</p><h2>7. 可选产品分析</h2><p>产品分析是可选的，并基于你的同意。它可能包括引导完成、设置流失、权限设置漏斗、激活、Premium 漏斗、Sleep Guard 使用、语言分布、应用版本、Android 版本和粗略设备分组。它不包括应用名称、包名、网站、URL、输入的意图、通知内容、消息、浏览历史、前台应用历史或个人内容。</p><p>LoopCut 不会发送自定义匿名用户 ID。Firebase / Google Analytics for Firebase 可能使用内置假名标识符，例如应用实例标识符或 <code>user_pseudo_id</code>。在同意之前，Firebase Analytics 保持禁用；LoopCut 不会发送远程产品分析事件，也不会保留原始的同意前队列供以后上传。撤回同意会停止未来分析并清除本地分析摘要，但不会删除必要的账户、Premium、购买、法律或服务运营记录。</p><h2>8. 会员更新和优惠</h2><p>如果你选择接收会员更新或专属优惠，LoopCut 可能使用你的邮箱发送 Early Access 更新、产品新闻、提示或优惠。这是可选的，并基于你的同意。你可以随时退订。</p><h2>9. 服务运营数据</h2><p>某些数据会与产品分析分开处理，因为它们对应用、账户、付款、安全、支持或法律运营是必要的。这可能包括账户创建和登录、Premium 权益、Google Play 购买验证、订阅状态、恢复购买、付款/税务/法律/安全记录、必要服务器/API 日志以及用户主动提交的支持诊断。</p><h2>10. 支持和诊断报告</h2><p>如果你联系支持或发送诊断报告，LoopCut 可能收到应用版本、Android 版本、粗略设备分组、应用语言、相关权限状态、错误类别以及解决账户或 Premium 问题所需的账户/权益状态。默认情况下，诊断报告设计为不包含应用名称、包名、输入的意图、通知内容、屏幕文字、网站、URL、浏览历史或前台应用历史。</p><h2>11. 不会为分析发送的数据</h2><ul><li>不发送其他应用的内容、屏幕文字、界面标签、消息或输入文字。</li><li>不发送 LoopCut 中输入的意图、网站、URL、浏览历史、通知内容或前台应用历史。</li><li>不发送联系人、通话记录、短信、精确位置或广告标识符。</li><li>不向第三方出售数据。</li></ul><h2>12. 云同步</h2><p>Google 登录用于账户型、Early Access 或 Premium 功能。默认情况下，LoopCut 不会同步你的 Guarded Apps 列表、应用使用历史、干预历史、输入的意图或 Sleep Guard 日程。如果未来添加可选云同步，LoopCut 会说明同步哪些数据，并提供单独控制。</p><h2>13. 权限和设备访问</h2><p>LoopCut 可能请求 Android 权限或设备设置访问，以提供你选择的功能。具体权限名称和步骤可能因 Android 版本和手机厂商而异。权限相关数据默认在你的设备上处理，除非本政策说明了特定的同意或必要传输。</p><p>LoopCut 不会使用权限为分析收集屏幕内容、消息、密码、通知内容、浏览历史、输入的意图或个人内容。你可以在 Android 设置中更改或禁用应用权限。</p><h2>14. Accessibility Service</h2><p>LoopCut 仅将 Android Accessibility Service 用于数字健康和应用干预功能，帮助应用你选择的保护设置。LoopCut 不会用它读取屏幕内容、文本、界面标签、消息、密码或输入，也不会记录或传输你在其他应用中的操作。</p><h2>15. 第三方库和服务</h2><p>LoopCut 仅在账户运营、付款、可靠性、支持或已同意的产品分析所需范围内使用服务提供商。这可能包括 LoopCut 可靠性报告端点、Firebase Authentication / Google Sign-In、Google Play Billing、Firebase Analytics / Google Analytics for Firebase 和 Google BigQuery。</p><p>LoopCut 不包含广告 SDK、数据经纪集成或广告跟踪。</p><h2>16. 处理的法律依据</h2><p>如果 GDPR 适用：账户、Premium 和恢复购买基于合同履行；付款、税务和法律记录基于法律义务或合同；安全和可靠性报告基于合法利益；产品分析、会员更新和优惠基于同意；支持诊断基于你的请求和发送报告的同意。</p><h2>17. 数据保留和删除</h2><p>本地数据通常在卸载时删除。账户数据会在账户有效期间保留，并可在应用中（如可用）或通过联系我们删除。购买和法律记录可按法律要求保留。导出到 BigQuery 的已同意产品分析原始事件级数据保留 90 天；长期分析表仅为汇总形式，并设计为不包含 <code>user_pseudo_id</code>、安装 ID、包名、意图文本或事件级时间线。</p><h2>18. 你的选择</h2><ul><li>除非特定账户功能需要账户，你可以不登录使用 LoopCut。</li><li>你可以在应用中退出登录。</li><li>你可以在 Settings - Privacy &amp; Data 中开启或关闭可靠性报告和产品分析。</li><li>你可以退订会员更新，请求删除账户，并在 Android 设置中更改应用权限。</li></ul><h2>19. 你的隐私权利</h2><p>根据你的居住地，包括 GDPR 适用时，你可能有权访问、更正、删除、导出、限制或反对某些个人数据处理。基于同意的处理可随时撤回。撤回产品分析同意只影响未来收集，不会自动删除依法需要保留的付款、税务、账户、安全或服务运营记录。</p><p>如需行使权利，请联系 <a href="mailto:u9486010837@gmail.com">u9486010837@gmail.com</a>。</p><h2>20. 国际处理</h2><p>LoopCut 可能使用 Google Firebase、Google Analytics for Firebase、Google BigQuery 和 Google Play 服务等服务提供商，它们可能在你居住国以外处理数据。必要时，LoopCut 依赖标准合同条款或等效机制等适当保障。</p><h2>21. 儿童隐私</h2><p>LoopCut 不面向低于其所在国家可同意数字服务年龄的儿童。LoopCut 不会在明知情况下未经适当父母同意收集儿童个人数据。</p><h2>22. 政策变更</h2><p>如果 LoopCut 更新本隐私政策，新版本将附带更新日期发布。重大变更会通过应用或其他适当方式通知。</p><h2>23. 联系</h2><p>如有问题、希望删除数据或行使隐私权利，请联系 <a href="mailto:u9486010837@gmail.com">u9486010837@gmail.com</a>。</p><hr style="margin: 40px 0 24px; border: none; border-top: 1px solid #e5e7eb;" /><p style="font-size: 14px; color: #6b7280; font-style: italic;">LoopCut 遵循隐私优先理念：敏感的手机使用数据应尽可能留在你的设备上，远程收集的数据应仅限于账户运营、可靠性、可选分析、支持或法律要求所需。</p>
 </main>
-
-<footer>
-  &copy; 2026 LoopCut &nbsp;·&nbsp; <a href="mailto:u9486010837@gmail.com" style="color: #6b7280;">联系我们</a>
-</footer>
-
+<footer>&copy; 2026 LoopCut &nbsp;·&nbsp; <a href="mailto:u9486010837@gmail.com" style="color: #6b7280;">联系</a></footer>
 </body>
 </html>

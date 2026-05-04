@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Politique de Confidentialité — LoopCut</title>
+  <title>Politique de confidentialité - LoopCut</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -21,6 +21,7 @@
       padding: 40px 24px 32px;
       text-align: center;
     }
+
     header .app-name {
       font-size: 13px;
       font-weight: 600;
@@ -29,33 +30,37 @@
       color: #93c5fd;
       margin-bottom: 8px;
     }
+
     header h1 {
       font-size: 26px;
       font-weight: 700;
       color: white;
       margin-bottom: 8px;
     }
+
     header .updated {
       font-size: 13px;
       color: #94a3b8;
     }
 
     main {
-      max-width: 720px;
+      max-width: 760px;
       margin: 0 auto;
       padding: 32px 24px 64px;
     }
 
-    .intro {
+    .intro, .note {
       background: white;
       border: 1px solid #e5e7eb;
       border-radius: 10px;
-      padding: 20px 24px;
-      margin-bottom: 32px;
+      padding: 18px 22px;
+      margin-bottom: 24px;
       font-size: 15px;
       color: #374151;
-      border-left: 4px solid #3b82f6;
     }
+
+    .intro { border-left: 4px solid #3b82f6; }
+    .note { border-left: 4px solid #64748b; }
 
     h2 {
       font-size: 18px;
@@ -68,7 +73,7 @@
 
     h3 {
       font-size: 15px;
-      font-weight: 600;
+      font-weight: 700;
       color: #1e3a5f;
       margin: 20px 0 8px;
     }
@@ -79,14 +84,10 @@
       padding-left: 20px;
       margin-bottom: 12px;
     }
+
     li { margin-bottom: 6px; color: #374151; font-size: 15px; }
     li strong { color: #111827; }
 
-    /* NOT collected list */
-    .not-collected li { list-style: none; padding-left: 0; }
-    .not-collected li::before { content: ''; margin-right: 6px; }
-
-    /* Tables */
     table {
       width: 100%;
       border-collapse: collapse;
@@ -96,20 +97,23 @@
       overflow: hidden;
       box-shadow: 0 1px 3px rgba(0,0,0,0.06);
     }
-    thead { background: #1e3a5f; color: white; }
-    thead th { padding: 10px 14px; text-align: left; font-weight: 600; font-size: 13px; }
-    tbody tr:nth-child(even) { background: #f8fafc; }
-    tbody td { padding: 9px 14px; border-bottom: 1px solid #e5e7eb; color: #374151; vertical-align: top; }
 
-    /* Alert box */
-    .alert {
-      background: #eff6ff;
-      border-left: 4px solid #3b82f6;
-      border-radius: 6px;
-      padding: 14px 18px;
-      margin: 16px 0;
-      font-size: 14px;
-      color: #1e40af;
+    thead { background: #1e3a5f; color: white; }
+
+    thead th {
+      padding: 10px 14px;
+      text-align: left;
+      font-weight: 600;
+      font-size: 13px;
+    }
+
+    tbody tr:nth-child(even) { background: #f8fafc; }
+
+    tbody td {
+      padding: 9px 14px;
+      border-bottom: 1px solid #e5e7eb;
+      color: #374151;
+      vertical-align: top;
     }
 
     code {
@@ -120,6 +124,9 @@
       border-radius: 3px;
       color: #1e3a5f;
     }
+
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
 
     footer {
       text-align: center;
@@ -133,156 +140,70 @@
     @media (max-width: 600px) {
       header { padding: 28px 16px 24px; }
       main { padding: 24px 16px 48px; }
-      table { font-size: 13px; }
+      table { font-size: 13px; display: block; overflow-x: auto; }
       thead th, tbody td { padding: 8px 10px; }
     }
   </style>
 </head>
 <body>
-
 <header>
   <div class="app-name">LoopCut</div>
-  <h1>Politique de Confidentialité</h1>
-  <div class="updated">Dernière mise à jour : 9 avril 2026</div>
+  <h1>Politique de confidentialité</h1>
+  <div class="updated">Dernière mise à jour : 4 mai 2026</div>
 </header>
-
 <main>
-
-  <div class="intro">
-    LoopCut est une application de bien-être numérique qui vous aide à briser vos habitudes d'utilisation du téléphone. Nous nous engageons à protéger votre vie privée tout en vous offrant des fonctionnalités qui vous aident à développer des habitudes téléphoniques plus saines.
-  </div>
-
-  <h2>Les Données Que Nous Collectons</h2>
-
-  <h3>Informations sur le Compte</h3>
-  <p>Lorsque vous créez un compte LoopCut (via la connexion Google), nous collectons :</p>
-  <ul>
-    <li><strong>Adresse e-mail du compte Google</strong> — pour la connexion et la récupération du compte</li>
-    <li><strong>Nom d'affichage</strong> (facultatif) — pour la personnalisation</li>
-    <li><strong>Statut du compte</strong> — si votre compte a été activé (utilisateur gratuit vs enregistré)</li>
-  </ul>
-
-  <h3>Analyses d'Utilisation</h3>
-  <p>Pour améliorer l'expérience de l'application, LoopCut peut collecter des <strong>données d'utilisation agrégées et anonymisées</strong>, telles que :</p>
-  <ul>
-    <li>Les fonctionnalités les plus fréquemment utilisées (ex. : mode heure du coucher, points de contrôle)</li>
-    <li>Le nombre de sessions et les modèles d'utilisation généraux</li>
-    <li>Les rapports de plantage et d'erreur de l'application</li>
-  </ul>
-  <p>Ces données sont <strong>anonymisées</strong> — elles ne peuvent pas être utilisées pour vous identifier personnellement. Elles sont utilisées uniquement pour comprendre comment l'application est utilisée et pour l'améliorer.</p>
-  <p><strong>Vous pouvez désactiver</strong> les analyses d'utilisation à tout moment dans les paramètres de l'application.</p>
-
-  <h3>Données NON Collectées</h3>
-  <ul class="not-collected">
-    <li>❌ Aucun contenu d'autres applications (ce que vous lisez, tapez ou visionnez)</li>
-    <li>❌ Aucune donnée de localisation</li>
-    <li>❌ Aucun contact ou journal d'appels</li>
-    <li>❌ Aucun identifiant publicitaire ou suivi des annonces</li>
-    <li>❌ Aucune donnée vendue à des tiers</li>
-  </ul>
-
-  <h2>Données Stockées sur Votre Appareil</h2>
-  <p>Les données suivantes sont stockées <strong>uniquement localement sur votre appareil</strong> et ne sont jamais transmises :</p>
-
-  <table>
-    <thead>
-      <tr><th>Données</th><th>Objectif</th><th>Stockage</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>Sessions d'utilisation des apps</td><td>Suivre quelles apps vous utilisez et combien de temps</td><td>Base de données Android Room</td></tr>
-      <tr><td>Paramètres de minuterie et d'intervention</td><td>Mémoriser vos préférences</td><td>Android DataStore</td></tr>
-      <tr><td>Configuration du mode heure du coucher</td><td>Planifier et gérer le mode sommeil</td><td>Android DataStore</td></tr>
-      <tr><td>Nombre de points de contrôle</td><td>Suivre la fréquence d'intervention par app</td><td>Base de données Android Room</td></tr>
-      <tr><td>Liste des alternatives</td><td>Votre bibliothèque d'activités saines</td><td>Base de données Android Room</td></tr>
-      <tr><td>Journaux de plantage</td><td>Aider au débogage local (visible uniquement dans l'app)</td><td>Fichier texte local</td></tr>
-    </tbody>
-  </table>
-  <p><strong>La désinstallation de LoopCut supprime définitivement toutes les données stockées localement.</strong></p>
-
-  <h2>Synchronisation Cloud</h2>
-  <p>Si vous vous connectez avec un compte Google, les données suivantes <strong>peuvent être synchronisées</strong> avec nos serveurs :</p>
-  <ul>
-    <li>Vos paramètres et préférences de l'application</li>
-    <li>Historique et statistiques des interventions</li>
-    <li>Statut du compte</li>
-  </ul>
-  <p>La synchronisation Cloud est conçue pour vous permettre de restaurer vos données sur un nouvel appareil. Vos données sont stockées de manière sécurisée à l'aide de Firebase (Google Cloud) et <strong>ne sont pas partagées avec des tiers</strong>.</p>
-  <div class="alert">
-    <strong>Vous pouvez utiliser LoopCut sans compte</strong> — toutes les fonctionnalités fonctionnent entièrement hors ligne avec un stockage uniquement local.
-  </div>
-
-  <h2>Autorisations Utilisées</h2>
-
-  <table>
-    <thead>
-      <tr><th>Autorisation</th><th>Pourquoi Elle Est Nécessaire</th></tr>
-    </thead>
-    <tbody>
-      <tr><td><strong>Service d'Accessibilité</strong></td><td>Détecte quelle application est au premier plan en lisant le nom du package de la fenêtre active. <strong>Aucun contenu d'écran, texte, étiquette d'interface utilisateur ou interaction utilisateur n'est lu.</strong> Vous pouvez désactiver cela à tout moment dans les Paramètres Android.</td></tr>
-      <tr><td><strong>Accès aux données d'utilisation</strong></td><td>Lit les données de temps d'écran par application pour afficher votre utilisation dans l'onglet "Aperçus" et appliquer des limites de temps de session. Ces données restent sur votre appareil.</td></tr>
-      <tr><td><strong>Afficher par-dessus d'autres applications</strong></td><td>Affiche les écrans d'intervention (points de contrôle, exercices de respiration, verrouillage de l'heure du coucher) en superposition sur d'autres applications.</td></tr>
-      <tr><td><strong>Notifications</strong></td><td>Envoie des rappels pour le mode heure du coucher et affiche la notification du service de détection au premier plan.</td></tr>
-      <tr><td><strong>Alarmes exactes</strong></td><td>Planifie de manière fiable les heures de début/fin du coucher et les minuteries d'intervention.</td></tr>
-      <tr><td><strong>Vibration</strong></td><td>Fournit un retour haptique pendant les exercices de respiration et l'achèvement des minuteries.</td></tr>
-      <tr><td><strong>Exécuter au démarrage</strong></td><td>Redémarre le service de détection au premier plan après le redémarrage de l'appareil afin que la protection reprenne automatiquement.</td></tr>
-      <tr><td><strong>Service au premier plan</strong></td><td>Maintient le service de détection au premier plan en cours d'exécution pendant que vous utilisez votre téléphone.</td></tr>
-      <tr><td><strong>Verrouillage de réveil (Wake lock)</strong></td><td>S'assure que les minuteries et les alarmes de l'heure du coucher se déclenchent correctement même lorsque l'écran est éteint.</td></tr>
-    </tbody>
-  </table>
-
-  <h2>Service d'Accessibilité — Déclaration Détaillée</h2>
-  <p>LoopCut utilise l'AccessibilityService d'Android <strong>exclusivement</strong> pour détecter quelle application est actuellement au premier plan. Le service :</p>
-  <ul>
-    <li><strong>Écoute uniquement</strong> les événements <code>TYPE_WINDOW_STATE_CHANGED</code> (changements d'application)</li>
-    <li><strong>Lit uniquement</strong> le nom du package de la fenêtre active (ex. : <code>com.android.chrome</code>)</li>
-    <li><strong>Ne lit jamais</strong> le contenu de l'écran, le texte, les étiquettes de l'interface utilisateur ou les saisies de l'utilisateur</li>
-    <li><strong>N'enregistre ni ne transmet jamais</strong> ce que vous faites à l'intérieur d'une application</li>
-    <li><strong>Peut être désactivé</strong> à tout moment dans Paramètres Android → Accessibilité</li>
-  </ul>
-
-  <h2>Bibliothèques et Services Tiers</h2>
-
-  <table>
-    <thead>
-      <tr><th>Service</th><th>Fournisseur</th><th>Objectif</th><th>Données Partagées</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>Firebase Authentication</td><td>Google</td><td>Connexion au compte via Google</td><td>E-mail, UID</td></tr>
-      <tr><td>Firebase Analytics</td><td>Google</td><td>Analyses d'utilisation anonymisées</td><td>Événements agrégés</td></tr>
-      <tr><td>Firebase Firestore</td><td>Google</td><td>Synchronisation Cloud des paramètres</td><td>Paramètres et statut du compte</td></tr>
-      <tr><td>Firebase Crashlytics</td><td>Google</td><td>Rapports de plantage</td><td>Traces de plantage anonymisées</td></tr>
-    </tbody>
-  </table>
-  <p>LoopCut <strong>n'inclut pas</strong> de SDK publicitaires ni d'intégrations de courtiers en données.</p>
-
-  <h2>Conservation et Suppression des Données</h2>
-  <ul>
-    <li>Les <strong>données locales</strong> sont supprimées lorsque vous désinstallez LoopCut</li>
-    <li>Les <strong>données du compte</strong> peuvent être supprimées en allant dans Paramètres → Compte → Supprimer le compte dans l'application, ou en nous envoyant un e-mail</li>
-    <li>Les <strong>données d'analyse</strong> sont anonymisées et ne peuvent pas être retracées jusqu'aux utilisateurs individuels</li>
-    <li>Vous pouvez demander une copie ou la suppression des données de votre compte Firebase en nous contactant</li>
-  </ul>
-
-  <h2>Confidentialité des Enfants</h2>
-  <p>LoopCut ne collecte pas sciemment d'informations personnelles auprès d'enfants de moins de 13 ans. Si vous pensez qu'un enfant nous a fourni des données personnelles, veuillez nous contacter afin que nous puissions les supprimer.</p>
-
-  <h2>Modifications de Cette Politique</h2>
-  <p>Si nous mettons à jour cette politique de confidentialité, la nouvelle version sera publiée à cette URL avec une date de mise à jour. Nous informerons les utilisateurs des modifications importantes via l'application.</p>
-
-  <h2>Contact</h2>
-  <p>Si vous avez des questions concernant cette politique de confidentialité ou si vous souhaitez demander la suppression de données, vous pouvez nous joindre à l'adresse suivante :</p>
-  <ul>
-    <li><strong>E-mail :</strong> <a href="mailto:u9486010837@gmail.com">u9486010837@gmail.com</a></li>
-  </ul>
-
+  <div class="intro">LoopCut est une application de bien-être numérique qui vous aide à réduire le défilement inconscient sur votre téléphone et à développer des habitudes plus intentionnelles. LoopCut est conçu pour que les informations sensibles sur votre utilisation du téléphone restent sur votre appareil chaque fois que possible.</div>
+  <h2>1. Qui nous sommes</h2>
+<p>Cette Politique de confidentialité explique comment LoopCut collecte, utilise, conserve et protège les informations lorsque vous utilisez l’application Android LoopCut et les services associés.</p><p>Le responsable du traitement est <strong>Wei Zhang</strong>, Allemagne. Vous pouvez nous contacter à <a href="mailto:u9486010837@gmail.com">u9486010837@gmail.com</a>.</p>
+  <h2>2. Résumé</h2>
+<ul><li>La plupart des paramètres et des données d’utilisation du téléphone restent stockés localement sur votre appareil.</li><li>LoopCut ne vend pas vos données et n’utilise pas d’identifiants publicitaires ni de suivi publicitaire.</li><li>LoopCut n’envoie pas les noms d’applications, noms de paquets, sites web, URL, intentions saisies, contenu des notifications, messages, historique de navigation, historique de l’application au premier plan ou contenu personnel pour les rapports de fiabilité ou l’analyse produit.</li><li>Les rapports de fiabilité aident à trouver les échecs de configuration, plantages et problèmes techniques. Vous pouvez les contrôler dans les paramètres.</li><li>L’analyse produit est facultative et fondée sur votre consentement. Firebase Analytics n’envoie des événements qu’après votre consentement.</li></ul>
+  <h2>3. Données stockées sur votre appareil</h2>
+<p>LoopCut traite certaines informations localement afin de fonctionner. Par défaut, les éléments suivants restent sur votre appareil : état d’onboarding, états des autorisations, Guarded Apps sélectionnées, nombre de Guarded Apps, paramètres Quick Task, compteurs d’activation, configuration Sleep Guard, langue de l’application et cache local d’abonnement Premium.</p><p>Les intentions saisies ou notes personnelles dans LoopCut restent également locales par défaut. La désinstallation de LoopCut supprime normalement les données locales de l’application, sous réserve des sauvegardes Android ou du fabricant.</p>
+  <h2>4. Compte et connexion</h2>
+<p>Vous pouvez utiliser LoopCut sans vous connecter, sauf si une fonctionnalité de compte, Early Access ou Premium l’exige. Si vous vous connectez avec Google, nous pouvons traiter votre adresse e-mail, identifiant de compte Google, nom affiché, état du compte et journaux de sécurité nécessaires.</p><p>La déconnexion désassocie le compte de l’application sur cet appareil. Elle ne supprime pas automatiquement vos paramètres locaux et reste distincte de vos choix concernant les rapports de fiabilité et l’analyse produit.</p>
+  <h2>5. Premium, achats et droits d’accès</h2>
+<p>Si LoopCut propose des fonctionnalités payantes, nous pouvons traiter les données nécessaires pour fournir ces fonctionnalités, valider les achats, restaurer les achats, gérer les remboursements et respecter nos obligations légales.</p><ul><li>Identifiant de produit ou d’abonnement.</li><li>Jeton d’achat ou informations de reçu nécessaires à la validation.</li><li>État d’essai, renouvellement, expiration, annulation, remboursement ou restauration.</li><li>Documents de paiement, taxe, facture, comptabilité, litige ou obligation légale lorsque nécessaire.</li></ul><p>Ces données sont des données d’exploitation du service, pas des événements Firebase Analytics.</p>
+  <h2>6. Rapports de fiabilité</h2>
+<p>LoopCut peut collecter des données de fiabilité limitées pour détecter les échecs de configuration, plantages et problèmes techniques selon les versions Android et les marques de téléphone.</p><p>Cela peut inclure la version de l’application, la version majeure d’Android, une catégorie grossière de fabricant, l’état des autorisations et de la configuration, l’étape échouée, une catégorie d’erreur ou de plantage, et des diagnostics techniques limités comme une catégorie de code d’erreur ou un composant affecté.</p><p>Les rapports de fiabilité n’incluent pas les noms d’applications, noms de paquets, sites web, URL, intentions saisies, contenu des notifications, messages, historique de navigation, historique de l’application au premier plan ou contenu personnel.</p><p>Vous pouvez activer ou désactiver les rapports de fiabilité dans Settings - Privacy &amp; Data. Les désactiver arrête les futurs envois, mais ne supprime pas les données de compte, d’achat, juridiques, de sécurité ou de support que LoopCut doit conserver pour d’autres finalités.</p>
+  <h2>7. Analyse produit facultative</h2>
+<p>L’analyse produit est facultative et basée sur votre consentement. Si vous choisissez d’aider à améliorer LoopCut pendant la configuration ou l’activez dans les paramètres, LoopCut peut collecter des événements limités pour comprendre les points de blocage et l’utilité des fonctionnalités.</p><p>Cela peut inclure l’achèvement de l’onboarding, les abandons de configuration, le parcours d’autorisations, l’activation, le tunnel Premium, l’adoption de Sleep Guard, la langue, la version de l’application, la version majeure d’Android et une catégorie grossière de fabricant.</p><p>Avant votre consentement, Firebase Analytics reste désactivé. LoopCut n’envoie aucun événement d’analyse produit à distance et ne conserve pas de file brute pré-consentement à envoyer plus tard.</p><p>LoopCut n’envoie pas d’identifiant utilisateur anonyme personnalisé. Firebase / Google Analytics for Firebase peut utiliser des identifiants pseudonymes intégrés.</p>
+  <h2>8. Actualités membres et offres</h2>
+<p>Si vous choisissez de recevoir des actualités membres ou des offres, LoopCut peut utiliser votre adresse e-mail pour envoyer des nouvelles Early Access, des informations produit, des conseils ou des offres. C’est facultatif et fondé sur votre consentement. Vous pouvez vous désabonner à tout moment.</p>
+  <h2>9. Données d’exploitation du service</h2>
+<p>Certaines données sont traitées uniquement lorsque cela est nécessaire au fonctionnement de l’application, du compte, du paiement, de la sécurité ou du support. Cela inclut la création et connexion au compte, l’état Premium, la validation Google Play, l’état d’abonnement, la restauration d’achat, les documents de paiement ou fiscaux, les journaux de sécurité et de fraude, les journaux serveur/API essentiels et les diagnostics de support que vous envoyez. Ce ne sont pas des événements d’analyse produit Firebase.</p>
+  <h2>10. Support et diagnostics</h2>
+<p>Si vous contactez le support ou envoyez un rapport de diagnostic, LoopCut peut recevoir des informations techniques nécessaires à l’enquête : version de l’application, version Android, groupe d’appareil, langue, états d’autorisations pertinents, catégories d’erreur et, si nécessaire, état du compte ou des droits.</p><p>Les rapports de diagnostic sont conçus pour ne pas inclure les noms d’applications, noms de paquets, intentions saisies, contenu des notifications, texte d’écran, sites web, URL ou historique de l’application au premier plan, sauf si vous choisissez volontairement de les inclure pour le support.</p>
+  <h2>11. Données non envoyées pour l’analyse</h2>
+<ul><li>Pas de contenu d’autres applications, texte d’écran, messages ou texte saisi.</li><li>Pas de texte d’intention LoopCut, sites web, URL, historique de navigation, contenu de notification ou historique d’application au premier plan.</li><li>Pas de contacts, journaux d’appels, SMS, localisation précise ou identifiants publicitaires.</li><li>Aucune vente de données à des tiers.</li></ul>
+  <h2>12. Synchronisation cloud</h2>
+<p>La connexion Google sert au compte, à Early Access ou à Premium. LoopCut ne synchronise pas par défaut votre liste Guarded Apps, historique d’utilisation, historique d’interventions, intentions saisies ou planning Sleep Guard. Si une synchronisation cloud facultative est ajoutée, LoopCut expliquera les données concernées et fournira un contrôle séparé.</p>
+  <h2>13. Autorisations et accès à l’appareil</h2>
+<p>LoopCut peut demander des autorisations Android ou l’accès à certains réglages de l’appareil pour fournir les fonctionnalités que vous choisissez. Les données liées aux autorisations sont traitées sur votre appareil par défaut. LoopCut n’utilise pas les autorisations pour collecter du contenu d’écran, messages, mots de passe, contenu de notifications, historique de navigation, intentions saisies ou contenu personnel à des fins d’analyse.</p>
+  <h2>14. Service d’accessibilité</h2>
+<p>LoopCut utilise l’Accessibility Service d’Android uniquement pour les fonctions de bien-être numérique et d’intervention dans l’application. Il ne sert pas à lire le contenu de l’écran, le texte, les libellés d’interface, messages, mots de passe ou saisies. LoopCut n’enregistre ni ne transmet ce que vous faites dans d’autres applications.</p>
+  <h2>15. Services tiers</h2>
+<p>LoopCut utilise des fournisseurs uniquement pour l’exploitation du compte, les paiements, la fiabilité, le support ou l’analyse produit consentie. Cela peut inclure le point de terminaison de rapports de fiabilité LoopCut, Firebase Authentication / Google Sign-In, Google Play Billing, Firebase Analytics / Google Analytics for Firebase et Google BigQuery. LoopCut n’intègre pas de SDK publicitaire, d’intégration de courtier de données ou de suivi publicitaire.</p>
+  <h2>16. Base juridique</h2>
+<p>Si le RGPD s’applique, le traitement lié au compte et aux achats repose sur l’exécution du contrat ou des obligations légales. Les journaux de sécurité et les rapports de fiabilité reposent sur les intérêts légitimes, avec un contrôle dans les paramètres. L’analyse produit et les actualités membres reposent sur le consentement. Les diagnostics de support reposent sur votre demande et votre consentement à envoyer le rapport.</p>
+  <h2>17. Conservation et suppression</h2>
+<p>Les données locales sont normalement supprimées lorsque LoopCut est désinstallé. Les données de compte sont conservées tant que le compte est actif et peuvent être supprimées dans l’application si l’option existe, ou en nous contactant. Les documents d’achat et légaux peuvent être conservés aussi longtemps que nécessaire.</p><p>Les données brutes d’analyse produit consentie exportées vers BigQuery sont conservées 90 jours. Les tables d’analyse à plus long terme sont agrégées uniquement et conçues pour ne pas contenir <code>user_pseudo_id</code>, identifiants d’installation, noms de paquets, texte d’intention ou chronologies d’événements.</p>
+  <h2>18. Vos choix</h2>
+<ul><li>Vous pouvez utiliser LoopCut sans connexion sauf si une fonctionnalité spécifique exige un compte.</li><li>Vous pouvez vous déconnecter dans l’application.</li><li>Vous pouvez activer ou désactiver les rapports de fiabilité et l’analyse produit dans Settings - Privacy &amp; Data.</li><li>Vous pouvez vous désabonner des actualités, demander la suppression du compte et modifier les autorisations dans les paramètres Android.</li></ul>
+  <h2>19. Vos droits</h2>
+<p>Selon votre lieu de résidence, notamment si le RGPD s’applique, vous pouvez avoir le droit d’accéder, corriger, supprimer, exporter, limiter ou vous opposer à certains traitements. Vous pouvez retirer votre consentement à tout moment. Le retrait du consentement à l’analyse produit affecte la collecte future et ne supprime pas automatiquement les documents de paiement, fiscaux, de compte, de sécurité ou d’exploitation du service légalement nécessaires.</p><p>Contact : <a href="mailto:u9486010837@gmail.com">u9486010837@gmail.com</a>.</p>
+  <h2>20. Traitement international</h2>
+<p>Google Firebase, Google Analytics for Firebase, Google BigQuery et Google Play services peuvent traiter des données en dehors de votre pays. Lorsque nécessaire, LoopCut s’appuie sur des garanties telles que les clauses contractuelles types ou des mécanismes équivalents.</p>
+  <h2>21. Confidentialité des enfants</h2>
+<p>LoopCut n’est pas destiné aux enfants n’ayant pas atteint l’âge requis pour consentir aux services numériques dans leur pays. Nous ne collectons pas sciemment les données personnelles d’enfants sans consentement parental approprié.</p>
+  <h2>22. Modifications</h2>
+<p>Les mises à jour seront publiées avec une nouvelle date. Les changements importants seront signalés dans l’application ou par une autre méthode appropriée.</p>
+  <h2>23. Contact</h2>
+<p>Questions, demandes de suppression ou demandes liées à vos droits : <a href="mailto:u9486010837@gmail.com">u9486010837@gmail.com</a>.</p>
   <hr style="margin: 40px 0 24px; border: none; border-top: 1px solid #e5e7eb;" />
-  <p style="font-size: 14px; color: #6b7280; font-style: italic;">LoopCut est conçu avec une philosophie axée sur la confidentialité : la plupart de vos données restent sur votre appareil, et toutes les données collectées sont anonymisées et utilisées uniquement pour améliorer l'application.</p>
-
 </main>
-
 <footer>
   &copy; 2026 LoopCut &nbsp;·&nbsp; <a href="mailto:u9486010837@gmail.com" style="color: #6b7280;">Contact</a>
 </footer>
-
 </body>
 </html>
+
